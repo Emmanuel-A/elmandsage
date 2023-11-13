@@ -40,10 +40,12 @@
     "footer": {
       "type": "ea-footer",
       "blocks": {
-        "2be3466d-45b3-4d8c-a4df-a40fec783daa": {
-          "type": "brand_information",
+        "0869b538-3eb4-4654-9e2a-94a253d93aa9": {
+          "type": "image",
           "settings": {
-            "show_social": true
+            "image": "shopify:\/\/shop_images\/elm-and-sage-logo.png",
+            "image_width": 200,
+            "alignment": "center"
           }
         },
         "24e641ee-7dbe-4169-ae0b-cac808a9e945": {
@@ -62,7 +64,7 @@
         }
       },
       "block_order": [
-        "2be3466d-45b3-4d8c-a4df-a40fec783daa",
+        "0869b538-3eb4-4654-9e2a-94a253d93aa9",
         "24e641ee-7dbe-4169-ae0b-cac808a9e945",
         "7fd50796-532c-469e-bb4c-599e780fd2b0"
       ],
