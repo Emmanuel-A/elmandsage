@@ -1,0 +1,21 @@
+.header__top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+@media screen and (max-width: 749px) {
+    .header__top-row {
+        padding: 20px 20px;
+    }
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+}
+
+header.header.header--middle-left.header--mobile-center.page-width.header--has-menu .header__heading {
+    visibility: hidden;
+}
