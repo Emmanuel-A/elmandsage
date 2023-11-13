@@ -13,8 +13,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/teas",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -52,7 +52,7 @@
         "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
