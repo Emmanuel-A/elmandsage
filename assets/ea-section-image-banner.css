@@ -502,7 +502,7 @@
     padding: 3rem 3rem;
     font-size: 18px;
     line-height: 3rem;
-    background-color: #ffffffb8;
+    background-color: #ffffffcf;
   }
 
   body.index .image-banner:last-of-type .banner .banner__box .banner__text p {
@@ -511,7 +511,7 @@
 
   @media screen and (max-width: 749px) {
     body.index .image-banner:last-of-type .banner .banner__box {
-      font-size: 16px;
-      line-height: 2rem;
+      font-size: 18px;
+      line-height: 2.2rem;
     }
   }
