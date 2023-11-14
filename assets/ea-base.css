@@ -3577,6 +3577,10 @@
     display: none;
   }
 
+  body.terms-and-conditions .banner {
+    display: none;
+  }
+
   body.terms-and-conditions .page-title,  body.disclaimer .page-title {
     font-family: Noto Serif, serif;
     font-size: 30px;
