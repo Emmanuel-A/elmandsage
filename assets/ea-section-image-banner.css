@@ -494,3 +494,13 @@
     }
   }
   
+  body.index .banner:last-of-type .banner__content {
+    justify-content: center !important;
+  }
+
+  body.index .banner:last-of-type .banner__box {
+    padding: 3rem 3rem;
+    font-size: 18px;
+    line-height: 3rem;
+    background-color: #ffffffb8;
+  }
