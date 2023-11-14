@@ -1,4 +1,6 @@
 .newsletter__wrapper {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #eaeaea;
   padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));
 }
