@@ -223,6 +223,7 @@ cart-drawer-items {
 
 .cart-drawer .cart-items thead {
   margin-bottom: 0.5rem;
+  display: none;
 }
 
 .cart-drawer .cart-items thead th:first-child,
