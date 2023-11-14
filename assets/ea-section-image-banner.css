@@ -494,11 +494,11 @@
     }
   }
   
-  body.index .banner:nth-of-type(2) .banner__content {
+  body.index .image-banner:last-of-type .banner .banner__content {
     justify-content: center !important;
   }
 
-  body.index .banner:nth-of-type(2) .banner__box {
+  body.index .image-banner:last-of-type .banner .banner__box {
     padding: 3rem 3rem;
     font-size: 18px;
     line-height: 3rem;
