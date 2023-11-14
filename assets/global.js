@@ -1,3 +1,18 @@
+class PageLoader extends HTMLElement {
+  constructor() {
+    super();
+
+    const pageLoader = document.querySelector('.page-loader');
+
+    if(pageLoader != null) {
+      window.onload = function() { 
+        pageLoader.classList.add("hide");
+      };
+    }
+  }
+}
+customElements.define('page-loader', PageLoader);
+
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
