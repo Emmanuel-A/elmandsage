@@ -450,6 +450,9 @@
   }
   
   @media screen and (max-width: 749px) {
+    body.index .banner__heading {
+      font-size: 4rem;
+    }
     .banner--content-align-mobile-right .banner__buttons--multiple {
       justify-content: flex-end;
     }

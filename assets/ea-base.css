@@ -834,6 +834,12 @@
     font-size: 32px;
     color: #007561;
   }
+
+  @media screen and (max-width: 749px) {
+    body.index .collection__title.title-wrapper .title {
+      font-size: 24px;
+    }
+  }
   
   .title-wrapper-with-link {
     display: flex;
