@@ -3561,6 +3561,10 @@
     display: none;
   }
 
+  body.about-us .rte ul {
+    padding: 0;
+  }
+
   body.about-us #MainContent {
     margin-bottom: 60px;
   }
