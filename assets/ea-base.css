@@ -3636,3 +3636,10 @@
   body.contact .contact {
     margin-bottom: 80px;
   }
+
+  body.contact .page-title {
+    font-family: Noto Serif,serif;
+    font-size: 30px;
+    color: #007561;
+    margin: 0;
+  }
