@@ -327,7 +327,9 @@
   }
 
   body.product .product__description p {
-    line-height: 2.5rem;
+    line-height: 2.1rem;
+    font-size: 14px;
+    letter-spacing: 0;
   }
 
   body.product .product__description p:last-of-type {
