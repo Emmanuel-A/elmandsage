@@ -3565,6 +3565,10 @@
     margin-bottom: 60px;
   }
 
+  body.products .collection {
+    margin-bottom: 80px;
+  }
+
   body.policy .page-title {
     display: none;
   }
