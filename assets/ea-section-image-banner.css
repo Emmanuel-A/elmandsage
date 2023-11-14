@@ -505,6 +505,10 @@
     background-color: #ffffffb8;
   }
 
+  body.index .image-banner:last-of-type .banner .banner__box .banner__text p {
+    color: #000000;
+  }
+
   @media screen and (max-width: 749px) {
     body.index .image-banner:last-of-type .banner .banner__box {
       font-size: 16px;
