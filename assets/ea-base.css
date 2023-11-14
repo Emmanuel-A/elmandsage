@@ -2042,6 +2042,7 @@
   .quantity__input[type='number'] {
     -moz-appearance: textfield;
     border: 1px solid #7d7d7d !important;
+    border-radius: 0;
     box-shadow: none !important;
     outline: none !important;
   }
