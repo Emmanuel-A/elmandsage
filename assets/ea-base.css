@@ -3581,6 +3581,10 @@
     display: none;
   }
 
+  body.terms-and-conditions #MainContent {
+    margin-bottom: 80px;
+  }
+
   body.terms-and-conditions .page-title,  body.disclaimer .page-title {
     font-family: Noto Serif, serif;
     font-size: 30px;
