@@ -296,7 +296,13 @@
   .footer__content-bottom-wrapper--center {
     justify-content: flex-start;
   }
-  
+
+  @media screen and (max-width: 749px) {
+    .footer__content-bottom-wrapper--center {
+      justify-content: center;
+    }
+  }
+    
   .footer__copyright {
     text-transform: uppercase;
     text-align: left;
