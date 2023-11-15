@@ -24,7 +24,7 @@
       }
     },
     "form": {
-      "type": "contact-form",
+      "type": "ea-contact-form",
       "settings": {
         "heading": "",
         "heading_size": "h1",
