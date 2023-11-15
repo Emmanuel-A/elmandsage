@@ -79,18 +79,22 @@ cart-items .title-wrapper-with-link {
 .cart-item__name {
   text-decoration: none;
   display: block;
+  color: #007561;
 }
 
 .cart-item__name:hover {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.2rem;
+  color: #4caf50;
 }
 
 .cart-item__price-wrapper > * {
   display: block;
   margin: 0;
   padding: 0;
+  color: #007561 !important;
+  letter-spacing: 0 !important;
 }
 
 .cart-item__discounted-prices dd {
@@ -140,7 +144,7 @@ cart-remove-button .button:after {
 }
 
 cart-remove-button .button:not([disabled]):hover {
-  color: rgb(var(--color-foreground));
+  color: #4caf50;
 }
 
 @media screen and (min-width: 750px) {

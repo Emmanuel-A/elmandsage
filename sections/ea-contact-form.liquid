@@ -1,4 +1,4 @@
-{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{{ 'ea-section-contact-form.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -130,10 +130,9 @@
         </button>
       </div>
     {%- endform -%}
-  </div>
-
-  <div class="contact-page-footer">
-    <p>Thank you for visiting Elm & Sage. We would love to hear from you. Your support means a lot to us, and we appreciate your business.</p>
+    <div class="contact-page-footer {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <p>Thank you for visiting Elm & Sage. We would love to hear from you. Your support means a lot to us, and we appreciate your business.</p>
+    </div>
   </div>
 </div>
 
