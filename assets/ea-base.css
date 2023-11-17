@@ -949,6 +949,13 @@
       row-gap: 30px;
     }
   }
+
+  @media screen and (max-width: 749px) {
+    body.index .grid {
+      row-gap: 30px;
+    }
+  }
+
   
   .grid:last-child {
     margin-bottom: 0;
