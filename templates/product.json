@@ -11,15 +11,15 @@
             "text_style": "uppercase"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "53006d68-0aa1-4657-a95d-18fb252b74de": {
           "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-product-summary\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
           "settings": {
             "product": "{{product}}"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
           }
         },
         "description": {
@@ -60,8 +60,8 @@
       },
       "block_order": [
         "vendor",
-        "53006d68-0aa1-4657-a95d-18fb252b74de",
         "title",
+        "53006d68-0aa1-4657-a95d-18fb252b74de",
         "description",
         "variant_picker",
         "quantity_selector",
