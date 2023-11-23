@@ -96,10 +96,28 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "170072074969afb200": {
+      "type": "apps",
+      "blocks": {
+        "b8766195-29b7-4c9c-94e1-344dea9594fe": {
+          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-product-review\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "b8766195-29b7-4c9c-94e1-344dea9594fe"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "170072074969afb200"
   ]
 }
